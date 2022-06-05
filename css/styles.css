@@ -1,0 +1,137 @@
+body {
+  color: #019267;/*paragraph font colour*/
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #CDF0EA;
+}
+
+h1 {
+  
+  font-size: 5.625rem;
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-weight: normal;
+
+}
+
+h3 {
+  color: #019267;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border:dotted gray 6px;
+ border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+color: #019267;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.top-container {
+  background-color: #2d6d61;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #ffffff;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%; 
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #138383;
+  font-size: 1.75rem bold ;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px; /*use to minimize and maximize the gap betweem botom and top container*/
+  bottom: 300px;
+}
+
+.code-img {   /* to know the img class put the img first and then class name*/
+  width: 25%;
+  float: left; /* float is used to image from one corner to another*/
+  margin-right: 30px;/*margin  helps us to make a space between image and text whatever margin or space you want form your img and txt just put the value in margin*/
+}
+
+.chilli-img { /*class */
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #E9D5CA;
+  background-image: -webkit-linear-gradient(top, #ffffff, #019267);
+  background-image: -moz-linear-gradient(top, #ffffff, #019267);
+  background-image: -ms-linear-gradient(top, #11cdd4, #019267);
+  background-image: -o-linear-gradient(top, #ffffff, #019267);
+  background-image: linear-gradient(to bottom, #ececec,#019267);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif; /* font family us to change in the font style*/
+  color: #019267;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+ 
